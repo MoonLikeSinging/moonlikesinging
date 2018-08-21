@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MoonLikesinging.iml" filepath="$PROJECT_DIR$/MoonLikesinging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moonlikesinging.iml" filepath="$PROJECT_DIR$/moonlikesinging.iml" />
     </modules>
   </component>
 </project>

@@ -11,19 +11,19 @@
     <title>MoonLikeSinging</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/iconfont.css"><meta http-equiv="X-UA-Compatible" content="IE=edge">
   </head>
   <body>
     <div class="container-fluid" style="font-size: 12px ; height: 37px; color: #666; background-color: #eeeeee">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10" style="margin-top: 4px">
+                <div class="col-lg-10 col-10" style="margin-top: 4px">
                     <span>
                         <i class="iconfont icon-zhuye"></i>
                         欢迎来到诗与音乐的乐园
                     </span>
                 </div>
-                <div class="col-lg-2" style="margin-top: 4px">
+                <div class="col-lg-2 col-2" style="margin-top: 4px">
                     <div>
                     <span>
                         <i class="iconfont icon-youxiang"></i>
@@ -36,23 +36,25 @@
     </div>
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a href="index.jsp">
+            <a class="navbar-brand" href="index.jsp">
                 <img src="img/logo.png" style="margin-left: -25px">
             </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="offset-lg-1"></div>
-
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active  col-lg-6">
+                    <li class="nav-item active  col-lg-6 col-6">
                         <a class="nav-link" href="index.jsp">首页<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item  col-lg-6">
+                    <li class="nav-item  col-lg-6 col-6">
                         <a class="nav-link" href="poetry.jsp">诗词</a>
                     </li>
-                    <li class="nav-item  col-lg-6">
+                    <li class="nav-item  col-lg-6 col-6">
                         <a class="nav-link" href="music.jsp">音乐</a>
                     </li>
-                    <li class="nav-item  col-lg-6">
+                    <li class="nav-item  col-lg-6 col-6">
                         <a class="nav-link" href="#">简介</a>
                     </li>
                 </ul>
@@ -66,7 +68,9 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100 h-75" src="img/shaonianyou.jpg" alt="First slide">
+                <a href="poetry.jsp">
+                    <img class="d-block w-100 h-75" src="img/shaonianyou.jpg" alt="First slide">
+                </a>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100 h-75" src="img/music_muyuyujinyu.jpg" alt="Second slide">
@@ -88,7 +92,9 @@
             </div>
             <hr style="width:60%; margin:50px 20px 0 0; border: 0; height: 0; border-top: 5px solid rgba(0, 0, 0, 0.1)" />
             <div>
-                <button type="button" class="btn btn-lg" style="margin-top: 32px; background-color: #e9ecef; color:#171a1d; ">查看更多</button>
+                <a href="poetry.jsp">
+                    <button type="button" class="btn btn-lg" style="margin-top: 32px; background-color: #e9ecef; color:#171a1d; font-family:SimSun">查看更多</button>
+                </a>
             </div>
         </div>
         <figure class="figure">
@@ -105,7 +111,9 @@
             </div>
             <hr style="width:60%; margin:50px 20px 0 0; border: 0; height: 0; border-top: 5px solid rgba(0, 0, 0, 0.1)" />
             <div>
-                <button type="button" class="btn btn-lg" style="margin-top: 32px; background-color: #e9ecef; color:#171a1d; ">查看更多</button>
+                <a href="music.jsp">
+                    <button type="button" class="btn btn-lg" style="margin-top: 32px; background-color: #e9ecef; color:#171a1d; font-family:SimSun">查看更多</button>
+                </a>
             </div>
         </div>
         <div class="row">
@@ -121,6 +129,14 @@
                 <img src="img/cangshanerhai.jpg" class="figure-img img-fluid rounded" >
                 <figcaption class="figure-caption">《温暖》 录制于 2015-06-17</figcaption>
             </figure>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row" style="background-image: url('img/footer-bg.png')">
+            <div class="offset-2"></div>
+            <img src="img/footer.png"/>
+            <div class="offset-2"></div>
+            <img src="img/QRcode.png" style="width: 160px; height: 160px; margin-top: 1%">
         </div>
     </div>
     <script src="js/jquery.min.js"></script>
