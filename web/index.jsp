@@ -93,16 +93,21 @@
             <hr style="width:60%; margin:50px 20px 0 0; border: 0; height: 0; border-top: 5px solid rgba(0, 0, 0, 0.1)" />
             <div>
                 <a href="poetry.jsp">
-                    <button type="button" class="btn btn-lg" style="margin-top: 32px; background-color: #e9ecef; color:#171a1d; font-family:SimSun">查看更多</button>
+                    <button type="button" class="btn btn-lg" style="margin-top: 32px; background-color: #e9ecef;
+                    color:#171a1d; font-family:SimSun">查看更多</button>
                 </a>
             </div>
         </div>
         <figure class="figure">
-            <img src="img/xianjing.jpg" class="figure-img img-fluid rounded" >
+            <a href="poetry.jsp#xianjing">
+                <img src="img/xianjing.jpg" class="figure-img img-fluid rounded" >
+            </a>
             <figcaption class="figure-caption">《仙境》 创作于 2016-07-19</figcaption>
         </figure>
         <figure class="figure">
-            <img src="img/hanmeiaoxue.jpg" class="figure-img img-fluid rounded">
+            <a href="poetry.jsp#hanmeiaoxue">
+                <img src="img/hanmeiaoxue.jpg" class="figure-img img-fluid rounded">
+            </a>
             <figcaption class="figure-caption">《冬至》 创作于 2017-12-22</figcaption>
         </figure>
         <div class="row">

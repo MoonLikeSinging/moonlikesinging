@@ -5,7 +5,7 @@
     font-family: STXingkai;
     font-size: 24px;
 }
-.four-words,.third-words,.second-words,.first-words{
+.eight-words,.seven-words,.six-words,.five-words,.four-words,.third-words,.second-words,.first-words{
     margin: 0 5px ;
 }
 /*自定义一个透明度从0到1的动画，它的名称是fade-in*/
@@ -107,7 +107,72 @@
     -moz-animation-fill-mode: forwards;
 }
 
+.five-words{
+    opacity: 0;
+    animation: fade-in 4s ease 10s 1;
+    -webkit-animation: fade-in 4s ease 10s 1;
+    -moz-animation: fade-in 4s ease 10s 1;
+    -o-animation: fade-in 4s ease 10s 1;
+    -ms-animation: fade-in 4s ease 10s 1;
+
+    /*规定动画的最后状态为结束状态*/
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+}
+
+.six-words{
+    opacity: 0;
+    animation: fade-in 4s ease 12s 1;
+    -webkit-animation: fade-in 4s ease 12s 1;
+    -moz-animation: fade-in 4s ease 12s 1;
+    -o-animation: fade-in 4s ease 12s 1;
+    -ms-animation: fade-in 4s ease 12s 1;
+
+    /*规定动画的最后状态为结束状态*/
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+}
+
+.seven-words{
+    opacity: 0;
+    animation: fade-in 4s ease 14s 1;
+    -webkit-animation: fade-in 4s ease 14s 1;
+    -moz-animation: fade-in 4s ease 14s 1;
+    -o-animation: fade-in 4s ease 14s 1;
+    -ms-animation: fade-in 4s ease 14s 1;
+
+    /*规定动画的最后状态为结束状态*/
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+}
+
+.eight-words{
+    opacity: 0;
+    animation: fade-in 4s ease 16s 1;
+    -webkit-animation: fade-in 4s ease 16s 1;
+    -moz-animation: fade-in 4s ease 16s 1;
+    -o-animation: fade-in 4s ease 16s 1;
+    -ms-animation: fade-in 4s ease 16s 1;
+
+    /*规定动画的最后状态为结束状态*/
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+}
+
 .intro{
     font-family:"Microsoft YaHei UI";
     font-size: 14px;
+    margin-top: 10px;
 }
