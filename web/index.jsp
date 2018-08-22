@@ -69,11 +69,11 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <a href="poetry.jsp">
-                    <img class="d-block w-100 h-75" src="img/shaonianyou.jpg" alt="First slide">
+                    <img class="d-block w-100 h-50" src="img/shaonianyou.jpg" alt="First slide">
                 </a>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100 h-75" src="img/music_muyuyujinyu.jpg" alt="Second slide">
+                <img class="d-block w-100 h-50" src="img/music_muyuyujinyu.jpg" alt="Second slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
