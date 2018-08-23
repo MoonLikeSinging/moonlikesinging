@@ -18,13 +18,13 @@
     <div class="container-fluid" style="font-size: 12px ; height: 37px; color: #666; background-color: #eeeeee">
     <div class="container">
         <div class="row">
-            <div class="col-lg-10 col-10" style="margin-top: 4px">
+            <div class="col-lg-10 col-8" style="margin-top: 4px">
                     <span>
                         <i class="iconfont icon-zhuye"></i>
                         欢迎来到诗与音乐的乐园
                     </span>
             </div>
-            <div class="col-lg-2 col-2" style="margin-top: 4px">
+            <div class="col-lg-2 col-4" style="margin-top: 4px">
                 <div>
                     <span>
                         <i class="iconfont icon-youxiang"></i>
@@ -36,7 +36,7 @@
     </div>
 </div>
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-expand navbar-light">
         <a class="navbar-brand" href="index.jsp">
             <img src="img/logo.png" style="margin-left: -25px">
         </a>
@@ -46,16 +46,16 @@
         <div class="offset-lg-1"></div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active  col-lg-6 col-6">
-                    <a class="nav-link" href="index.jsp">首页<span class="sr-only">(current)</span></a>
+                <li class="nav-item active  col-lg-6 col-4">
+                    <a class="nav-link" href="index.jsp">首页</a>
                 </li>
-                <li class="nav-item  col-lg-6 col-6">
+                <li class="nav-item  col-lg-6 col-4">
                     <a class="nav-link" href="poetry.jsp">诗词</a>
                 </li>
-                <li class="nav-item  col-lg-6 col-6">
+                <li class="nav-item  col-lg-6 col-4">
                     <a class="nav-link" href="music.jsp">音乐</a>
                 </li>
-                <li class="nav-item  col-lg-6 col-6">
+                <li class="nav-item  col-lg-6 col-4">
                     <a class="nav-link" href="#">简介</a>
                 </li>
             </ul>
@@ -114,12 +114,12 @@
                 <div>
                     <img src="img/yiguren.jpg">
                 </div>
-                <div class="five-words" style="margin: 200px 0 0 40px"><br>来<br>生<br>若<br>将<br>此<br>生<br>见<br><br> 直<br>撞<br>南<br>墙<br>面<br>九<br>幽</div>
-                <div class="four-words" style="margin: 200px 0 0 40px"><br>碧<br>海<br>波<br>涛<br>欲<br>倾<br>楼<br><br> 酒<br>入<br>肝<br>胆<br>志<br>未<br>酬</div>
-                <div class="third-words" style="margin: 200px 0 0 40px"><br>曾<br>记<br>否<br><br>?</div>
-                <div class="second-words" style="margin: 200px 0 0 40px"><br>盘<br>坐<br>竹<br>楼<br>相<br>对<br>弈<br><br> 一<br>盏<br>茶<br>来<br>一<br>壶<br>酒</div>
-                <div class="first-words" style="margin: 200px 0 0 40px"><br>春<br>雨<br>淅<br>淅<br>柳<br>枝<br>头<br><br> 桃<br>花<br>争<br>艳<br>娇<br>愈<br>羞</div>
-                <div class="title-words" style="margin: 200px 0 0 40px"><br><br><br>︽<br>春<br>雨<br>·<br> 忆<br>古<br>人<br>︾</div>
+                <div class="five-words" style="margin: 200px 0 0 20px"><br>来<br>生<br>若<br>将<br>此<br>生<br>见<br><br> 直<br>撞<br>南<br>墙<br>面<br>九<br>幽</div>
+                <div class="four-words" style="margin: 200px 0 0 20px"><br>碧<br>海<br>波<br>涛<br>欲<br>倾<br>楼<br><br> 酒<br>入<br>肝<br>胆<br>志<br>未<br>酬</div>
+                <div class="third-words" style="margin: 200px 0 0 20px"><br>曾<br>记<br>否<br><br>?</div>
+                <div class="second-words" style="margin: 200px 0 0 20px"><br>盘<br>坐<br>竹<br>楼<br>相<br>对<br>弈<br><br> 一<br>盏<br>茶<br>来<br>一<br>壶<br>酒</div>
+                <div class="first-words" style="margin: 200px 0 0 20px"><br>春<br>雨<br>淅<br>淅<br>柳<br>枝<br>头<br><br> 桃<br>花<br>争<br>艳<br>娇<br>愈<br>羞</div>
+                <div class="title-words" style="margin: 200px 0 0 20px"><br><br><br>︽<br>春<br>雨<br>·<br> 忆<br>古<br>人<br>︾</div>
             </div>
         </div>
         <div class="intro">
@@ -145,7 +145,7 @@
         <a name="xianjing"></a>
         <div class="fade-in-words">
             <div class="row" style="background-image: url('img/xianjing-bg.jpg'); background-repeat: no-repeat; height: 525px">
-                <div class="col-lg-8"></div>
+                <div class="offset-lg-8 offset-6"></div>
                 <div class="eight-words"><br>白<br>鹤<br>悠<br>游<br>三<br>清<br>境</div>
                 <div class="seven-words"><br>烛<br>龙<br>睁<br>眼<br>见<br>天<br>明</div>
                 <div class="six-words"><br>麒<br>麟<br>吐<br>雾<br>云<br>中<br>停</div>
@@ -165,7 +165,7 @@
     <div class="container" style="margin-top: 100px">
         <div class="fade-in-words">
             <div class="row" style="background-image: url('img/tianming.jpg'); background-repeat: no-repeat; height: 553px">
-                <div class="offset-lg-7"></div>
+                <div class="offset-lg-7 offset-7"></div>
                 <div class="six-words"><br>遥<br>问<br>仙<br>君<br>命<br>可<br>修<br><br>不<br>见<br>凡<br>间<br>悲<br>与<br>愁</div>
                 <div class="five-words"><br>九<br>天<br>玄<br>女<br>舞<br>轻<br>幽<br><br> 玉<br>皇<br>端<br>坐<br>九<br>重<br>楼</div>
                 <div class="four-words"><br>但<br>见<br>仙<br>人<br>与<br>瑞<br>兽<br><br> 麒<br>麟<br>吐<br>雾<br>在<br>云<br>头</div>
@@ -182,7 +182,7 @@
     <div class="container" style="margin-top: 100px;">
         <div class="fade-in-words">
             <div class="row" style="background-image: url('img/yanxia.jpg'); background-repeat: no-repeat; height: 469px">
-                <div class="offset-lg-8"></div>
+                <div class="offset-lg-8 offset-8"></div>
                 <div class="four-words"><br>树<br>下<br>垂<br>钓<br>静<br>心<br>凉</div>
                 <div class="third-words"><br>浮<br>鱼<br>跃<br>出<br>池<br>塘<br>面</div>
                 <div class="second-words"><br>莲<br>开<br>曳<br>动<br>花<br>飘<br>香</div>
