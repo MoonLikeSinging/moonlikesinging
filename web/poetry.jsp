@@ -145,7 +145,7 @@
         <a name="xianjing"></a>
         <div class="fade-in-words">
             <div class="row" style="background-image: url('img/xianjing-bg.jpg'); background-repeat: no-repeat; height: 525px">
-                <div class="offset-lg-8 offset-6"></div>
+                <div class="offset-lg-1 offset-1"></div>
                 <div class="eight-words"><br>白<br>鹤<br>悠<br>游<br>三<br>清<br>境</div>
                 <div class="seven-words"><br>烛<br>龙<br>睁<br>眼<br>见<br>天<br>明</div>
                 <div class="six-words"><br>麒<br>麟<br>吐<br>雾<br>云<br>中<br>停</div>
@@ -207,6 +207,21 @@
         </div>
         <div class="intro">
             <p>简介：二零一六年三月八日，春风吹遍九州，花儿开遍大地，风儿带来了花香，仿若繁花绽放在眼前。</p>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 100px">
+        <div class="fade-in-words">
+            <div class="row" style="background-image: url('img/zaochun.jpg'); background-repeat: no-repeat; height: 500px">
+                <div class="offset-lg-3 offset-3"></div>
+                <div class="four-words"><br>清<br>风<br>拂<br>动<br>翠<br>柳<br>梢</div>
+                <div class="third-words"><br>闲<br>坐<br>亭<br>中<br>相<br>对<br>饮</div>
+                <div class="second-words"><br>波<br>光<br>潋<br>滟<br>山<br>色<br>好</div>
+                <div class="first-words"><br>红<br>花<br>绿<br>叶<br>春<br>来<br>到</div>
+                <div class="title-words"><br><br>︽<br>早<br><br>春<br>︾</div>
+            </div>
+        </div>
+        <div class="intro">
+            <p>简介：二零一六年三月三日，春意初现。</p>
         </div>
     </div>
 </body>
