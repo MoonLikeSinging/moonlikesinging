@@ -1,6 +1,6 @@
 <%--
   Created by IntelliJ IDEA.
-  User: User
+  User: Moon
   Date: 2018/8/9
   Time: 15:52
   To change this template use File | Settings | File Templates.
@@ -46,16 +46,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active  col-lg-6 col-4">
-                        <a class="nav-link" href="index.jsp">首页</a>
+                        <a class="nav-link" href="index.jsp" style="font-family: STXingkai; font-size: 36px">首页</a>
                     </li>
                     <li class="nav-item  col-lg-6 col-4">
-                        <a class="nav-link" href="poetry.jsp">诗词</a>
+                        <a class="nav-link" href="poetry.jsp" style="font-family: STXingkai; font-size: 36px">诗词</a>
                     </li>
                     <li class="nav-item  col-lg-6 col-4">
-                        <a class="nav-link" href="music.jsp">音乐</a>
+                        <a class="nav-link" href="music.jsp" style="font-family: STXingkai; font-size: 36px">音乐</a>
                     </li>
                     <li class="nav-item  col-lg-6 col-4">
-                        <a class="nav-link" href="#">简介</a>
+                        <a class="nav-link" href="#" style="font-family: STXingkai; font-size: 36px">简介</a>
                     </li>
                 </ul>
             </div>

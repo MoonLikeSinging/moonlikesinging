@@ -1,6 +1,6 @@
 <%--
   Created by IntelliJ IDEA.
-  User: User
+  User: Moon
   Date: 2018/8/17
   Time: 17:47
   To change this template use File | Settings | File Templates.
@@ -46,17 +46,17 @@
         <div class="offset-lg-1"></div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active  col-lg-6 col-4">
-                    <a class="nav-link" href="index.jsp">首页</a>
+                <li class="nav-item col-lg-6 col-4">
+                    <a class="nav-link" href="index.jsp" style="font-family: STXingkai; font-size: 36px">首页</a>
+                </li>
+                <li class="nav-item active col-lg-6 col-4" >
+                    <a class="nav-link" href="poetry.jsp" style="font-family: STXingkai; font-size: 36px">诗词</a>
                 </li>
                 <li class="nav-item  col-lg-6 col-4">
-                    <a class="nav-link" href="poetry.jsp">诗词</a>
+                    <a class="nav-link" href="music.jsp" style="font-family: STXingkai; font-size: 36px">音乐</a>
                 </li>
                 <li class="nav-item  col-lg-6 col-4">
-                    <a class="nav-link" href="music.jsp">音乐</a>
-                </li>
-                <li class="nav-item  col-lg-6 col-4">
-                    <a class="nav-link" href="#">简介</a>
+                    <a class="nav-link" href="#" style="font-family: STXingkai; font-size: 36px">简介</a>
                 </li>
             </ul>
         </div>
@@ -222,6 +222,188 @@
         </div>
         <div class="intro">
             <p>简介：二零一六年三月三日，春意初现。</p>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 100px">
+        <div class="fade-in-words">
+            <div class="row">
+                <img src="img/xiaohan.jpg">
+                <div class="four-words" style="margin: 100px 0 0 40px"><br>喜<br>鹊<br>啼<br>鸣<br>鹰<br>击<br>涧</div>
+                <div class="third-words" style="margin: 100px 0 0 15px"><br>寒<br>梅<br>独<br>傲<br>纷<br>飞<br>雪</div>
+                <div class="second-words" style="margin: 100px 0 0 15px"><br>屋<br>檐<br>冰<br>挂<br>柳<br>梢<br>尖</div>
+                <div class="first-words" style="margin: 100px 0 0 15px"><br>小<br>寒<br>料<br>峭<br>披<br>素<br>颜</div>
+                <div class="title-words" style="margin: 100px 0 0 15px"><br><br>︽<br>小<br><br>寒<br>︾</div>
+            </div>
+        </div>
+        <div class="intro">
+            <p>简介：二零一六年一月六日，小寒，雪铺大地，寒梅独秀，喜鹊啼鸣，一副冬日下生机盎然的画面展现眼前，然后忽转雄鹰老死后直接坠落深涧，代表万物归寂，形成强烈的对比。</p>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 100px">
+        <div class="fade-in-words">
+            <div class="row" style="background-image: url('img/taibaizuijiu.jpg'); background-repeat: no-repeat;height: 500px">
+                <div class="offset-lg-1 offset-1"></div>
+                <div class="eight-words"><br>何<br>寻<br>南<br>山<br>路</div>
+                <div class="seven-words"><br>待<br>到<br>古<br>稀<br>年</div>
+                <div class="six-words"><br>人<br>生<br>几<br>多<br>苦</div>
+                <div class="five-words"><br>古<br>今<br>名<br>利<br>场</div>
+                <div class="four-words"><br>细<br>雨<br>洗<br>尘<br>污</div>
+                <div class="third-words"><br>清<br>风<br>拂<br>翠<br>柳</div>
+                <div class="second-words"><br>静<br>心<br>入<br>浮<br>屠</div>
+                <div class="first-words"><br>一<br>朝<br>红<br>尘<br>渡</div>
+                <div class="title-words"><br>︽<br>红<br><br>尘<br>︾</div>
+            </div>
+        </div>
+        <div class="intro">
+            <p>简介：二零一五年十二月十一，叹古人青年入红尘，中年便厌倦红尘而入佛堂，放弃名利，抛开身上的纷纷扰扰，勿虚待到古稀之年才来找寻悠然见南山的生活。</p>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 100px">
+        <div class="fade-in-words">
+            <div class="row">
+                <img src="img/yiguren.png">
+                <div class="four-words" style="margin: 100px 0 0 40px"><br>何<br>叹<br>空<br>悲<br>喜<br><br>任<br>忆<br>黄<br>昏<br>后</div>
+                <div class="third-words" style="margin: 100px 0 0 15px"><br>思<br>君<br>几<br>多<br>愁<br><br>烟<br>雨<br>几<br>分<br>忧</div>
+                <div class="second-words" style="margin: 100px 0 0 15px"><br>今<br>宵<br>甜<br>如<br>酒<br><br>明<br>朝<br>依<br>人<br>旧</div>
+                <div class="first-words" style="margin: 100px 0 0 15px"><br>斯<br>人<br>若<br>彩<br>虹<br><br>遇<br>上<br>方<br>知<br>有</div>
+                <div class="title-words" style="margin: 100px 0 0 15px"><br><br><br><br>︽<br>忆<br>故<br>人<br>︾</div>
+            </div>
+        </div>
+        <div class="intro">
+            <p>简介：二零一五年八月五日，遇佳句续写成篇，昨日依人甜如酒，今朝便已成故人，想念便成了哀愁，连烟雨都跟着忧伤了起来，可叹一场空欢喜，只能悲伤的思念到黄昏的尽头。</p>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 100px;">
+        <div class="fade-in-words">
+            <div class="row" style="background-image: url('img/wanlijiangshan.jpg'); background-repeat: no-repeat; height: 693px;">
+                <div class="offset-lg-6 offset-6"></div>
+                <div class="eight-words"><br><br>红<br>尘<br>万<br>里<br>即<br>仙<br>乡</div>
+                <div class="seven-words"><br><br>当<br>时<br>只<br>道<br>是<br>寻<br>常</div>
+                <div class="six-words"><br><br>人<br>间<br>处<br>处<br>仙<br>音<br>响</div>
+                <div class="five-words"><br><br>何<br>需<br>苦<br>心<br>寻<br>仙<br>坊</div>
+                <div class="four-words"><br><br>历<br>历<br>在<br>目<br>泪<br>千<br>行</div>
+                <div class="third-words"><br><br>此<br>生<br>尽<br>头<br>回<br>首<br>望</div>
+                <div class="second-words"><br><br>寻<br>问<br>幸<br>福<br>在<br>何<br>方</div>
+                <div class="first-words"><br><br>人<br>生<br>漫<br>漫<br>此<br>路<br>长</div>
+                <div class="title-words"><br><br><br>︽<br>问<br>道<br>︾</div>
+            </div>
+        </div>
+        <div class="intro">
+            <p>简介：二零一五年七月二十三，想象一古稀道人，年少求真问道修仙，漫漫此路，回首往昔，恍然觉悟，仙乡即人间。</p>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 100px;">
+        <div class="fade-in-words">
+            <div class="row" style="background-image: url('img/pengchengwanli.jpg'); background-repeat: no-repeat; height: 500px;">
+                <div class="offset-lg-1 offset-2"></div>
+                <div class="eight-words"><br>扶<br>摇<br>三<br>清<br>境</div>
+                <div class="seven-words"><br>鹏<br>乘<br>九<br>万<br>里</div>
+                <div class="six-words"><br>心<br>似<br>琉<br>璃<br>镜</div>
+                <div class="five-words"><br>人<br>如<br>赤<br>足<br>金</div>
+                <div class="four-words"><br>仁<br>智<br>礼<br>义<br>信</div>
+                <div class="third-words"><br>岁<br>月<br>抹<br>不<br>平</div>
+                <div class="second-words"><br>此<br>路<br>且<br>直<br>行</div>
+                <div class="first-words"><br>君<br>怀<br>赤<br>子<br>心</div>
+                <div class="title-words"><br>︽<br>求<br>·<br>真<br>︾</div>
+            </div>
+        </div>
+        <div class="intro">
+            <p>简介：二零一五年七月十三，愿所有人心怀赤子，谦谦如玉，鹏程万里。</p>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 100px">
+        <div class="fade-in-words">
+            <div class="row">
+                <img src="img/chuzheng.jpg">
+                <div class="four-words" style="margin: 0 0 0 30px"><br>羽<br>落<br>他<br>乡<br>日<br><br>心<br>在<br>故<br>乡<br>明</div>
+                <div class="third-words" style="margin: 0 0 0 30px"><br>凤<br>翔<br>三<br>千<br>里<br><br>离<br>殇<br>问<br>归<br>期</div>
+                <div class="second-words" style="margin: 0 0 0 30px"><br>献<br>君<br>一<br>杯<br>酒<br><br>流<br>火<br>烽<br>烟<br>行</div>
+                <div class="first-words" style="margin: 0 0 0 30px"><br>寒<br>夜<br>起<br>风<br>雨<br><br>亭<br>下<br>抚<br>琴<br>音</div>
+                <div class="title-words" style="margin: 0 0 0 30px"><br><br><br><br>︽<br>出<br>征<br>︾</div>
+            </div>
+        </div>
+        <div class="intro">
+            <p>简介：二零一四年十一月五日，寒夜中风雨交加，你在亭下为我抚琴献酒，我将出征三千里外，也无法回答你归期何时，假若我战死他乡，我的心依然留恋故乡，因为那里有你。</p>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 100px">
+        <div class="fade-in-words">
+            <div class="row">
+                <img src="img/yishixiaoyao.jpg">
+                <div class="four-words" style="margin: 100px 0 0 30px"><br>锁<br>心<br>十<br>八<br>岁<br><br>爱<br>恨<br>是<br>情<br>由</div>
+                <div class="third-words" style="margin: 100px 0 0 30px"><br>无<br>意<br>山<br>川<br>秀<br><br>至<br>情<br>为<br>此<br>忧</div>
+                <div class="second-words" style="margin: 100px 0 0 30px"><br>箫<br>声<br>乍<br>又<br>起<br><br>遥<br>望<br>几<br>时<br>休</div>
+                <div class="first-words" style="margin: 100px 0 0 30px"><br>一<br>生<br>何<br>所<br>求<br><br>思<br>君<br>如<br>三<br>秋</div>
+                <div class="title-words" style="margin: 100px 0 0 30px"><br><br><br><br>︽<br>一<br>世<br>逍<br>遥<br>︾</div>
+            </div>
+        </div>
+        <div class="intro">
+            <p>简介：二零一四年六月十二，愿君一世逍遥。</p>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 100px;">
+        <div class="fade-in-words">
+            <div class="row" style="background-image: url('img/huishounian.jpg'); background-repeat: no-repeat; height: 500px;">
+                <div class="offset-lg-6 offset-6"></div>
+                <div class="eight-words"><br>美<br>酒<br>佳<br>人<br>此<br>路<br>行</div>
+                <div class="seven-words"><br>寥<br>寥<br>一<br>生<br>何<br>所<br>望</div>
+                <div class="six-words"><br>才<br>闻<br>旧<br>人<br>梦<br>中<br>音</div>
+                <div class="five-words"><br>昨<br>夜<br>梦<br>中<br>忽<br>惊<br>醒</div>
+                <div class="four-words"><br>纷<br>扰<br>为<br>伴<br>情<br>不<br>移</div>
+                <div class="third-words"><br>转<br>身<br>不<br>忘<br>相<br>知<br>守</div>
+                <div class="second-words"><br>几<br>多<br>欢<br>喜<br>几<br>多<br>忆</div>
+                <div class="first-words"><br>人<br>生<br>难<br>得<br>遇<br>知<br>己</div>
+                <div class="title-words"><br>︽<br>回<br>首<br>念<br>︾</div>
+            </div>
+        </div>
+        <div class="intro">
+            <p>简介：二零一四年六月三日，回首念过往。</p>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 100px">
+        <div class="fade-in-words">
+            <div class="row">
+                <img src="img/fengxueyeguiren.jpg">
+                <div class="four-words" style="margin: 100px 0 0 30px"><br>千<br>载<br>红<br>尘<br>哭<br>且<br>笑<br><br>吾<br>乡<br>心<br>安<br>处</div>
+                <div class="third-words" style="margin: 100px 0 0 30px"><br>琴<br>音<br>伴<br>萧<br>瑟<br><br>孤<br>鸿<br>云<br>辇<br>踏<br>归<br>途</div>
+                <div class="second-words" style="margin: 100px 0 0 30px"><br>温<br>酒<br>乍<br>暖<br>宾<br>朋<br>座<br><br>何<br>处<br>是<br>归<br>途</div>
+                <div class="first-words" style="margin: 100px 0 0 30px"><br>起<br>身<br>望<br>前<br>路<br><br>茫<br>茫<br>风<br>雪<br>行<br>人<br>孤</div>
+                <div class="title-words" style="margin: 100px 0 0 30px"><br><br><br><br>︽<br>思<br><br>乡<br><br>︾</div>
+            </div>
+        </div>
+        <div class="intro">
+            <p>简介：二零一三年六月十九，回乡月余，念古人客居异乡，酒宴结束，风雪独归，望吾乡，即心安处。</p>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 100px">
+        <div class="fade-in-words">
+            <div class="row">
+                <img src="img/zuihuayin.jpg">
+                <div class="second-words" style="margin: 100px 0 0 30px"><br>今<br>宵<br>旧<br>梦<br>残<br>月<br>下<br><br>一<br>曲<br>高<br>歌<br>独<br>醉<br>醒</div>
+                <div class="first-words" style="margin: 100px 0 0 30px"><br>美<br>人<br>如<br>酒<br>醉<br>花<br>荫<br><br>缱<br>绻<br>反<br>转<br>路<br>人<br>离<br></div>
+                <div class="title-words" style="margin: 100px 0 0 30px"><br><br><br><br>︽<br>醉<br><br>酒<br><br>︾</div>
+            </div>
+        </div>
+        <div class="intro">
+            <p>简介：二零一三年四月十五，古人醉青楼。</p>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 100px;">
+        <div class="fade-in-words">
+            <div class="row">
+                <img src="img/faruxue.jpg">
+                <div class="seven-words"><br><br><br>此<br>间<br>意<br><br>浊<br>酒<br>一<br>杯<br>莫<br>相<br>忘</div>
+                <div class="six-words"><br><br><br>心<br>倦<br>自<br>有<br>真<br>情<br>在</div>
+                <div class="five-words"><br><br><br>不<br>因<br>人<br>事<br>空<br>悲<br>凉</div>
+                <div class="four-words"><br><br><br>明<br>月<br>又<br>惶<br>惶</div>
+                <div class="third-words"><br><br><br>问<br>此<br>夜<br><br>辗<br>转<br>反<br>侧<br>为<br>谁<br>伤</div>
+                <div class="second-words"><br><br><br>转<br>眼<br>情<br>已<br>逝</div>
+                <div class="first-words"><br><br><br>白<br>发<br>又<br>苍<br>苍<br><br>不<br>为<br>寂<br>寞<br>狂</div>
+                <div class="title-words"><br><br><br><br><br>︽<br>发<br>如<br>雪<br>︾</div>
+            </div>
+        </div>
+        <div class="intro">
+            <p>简介：二零一二年八月七日，心若倦了，哪里都是流浪。</p>
         </div>
     </div>
 </body>
